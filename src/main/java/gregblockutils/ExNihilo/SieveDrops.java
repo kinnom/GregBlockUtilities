@@ -122,7 +122,7 @@ public class SieveDrops {
         addRecipe(granite, Materials.Calcite, 0.02925, 2);
         addRecipe(gravel, Materials.Lignite, 0.285, 1);
         addRecipe(gravel, Materials.Coal, 0.095, 1);
-        addRecipe(granite, Materials.Magnetite, 0.2505, 1);
+        addRecipe(granite, Materials.Magnetite, 0.2508, 1); //The magnetite:iron:Vmagnetite:gold ratio appears to should have been 12:3:3:2
         addRecipe(granite, Materials.Iron, 0.0627, 1);
         addRecipe(granite, Materials.VanadiumMagnetite, 0.0627, 1);
         addRecipe(granite, Materials.Gold, 0.0418, 1);
@@ -309,8 +309,8 @@ public class SieveDrops {
         addRecipe(end, Materials.Bentonite, 0.0192, 3);
         addRecipe(end, Materials.Magnesite, 0.0192, 3);
         addRecipe(end, Materials.Olivine, 0.0192, 3);
-        addRecipe(end, Materials.Glauconite, 0.064, 3);
-        addRecipe(end, Materials.Chromite, 0.064, 3);
+        addRecipe(end, Materials.Glauconite, 0.0064, 3); //Missing 0
+        addRecipe(end, Materials.Chromite, 0.0064, 3); //Missing 0?
         addRecipe(end, Materials.Cooperite, 0.0288, 3);
         addRecipe(end, Materials.Palladium, 0.0224, 3);
         addRecipe(end, Materials.Iridium, 0.0128, 3);
